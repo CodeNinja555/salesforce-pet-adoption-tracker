@@ -1,6 +1,6 @@
-# 🐶 Phase 1: Problem Understanding & Industry Analysis  
+#  Phase 1: Problem Understanding & Industry Analysis  
 
-## 📌 1. Requirement Gathering  
+## 1. Requirement Gathering  
 Animal shelters and NGOs face challenges in managing pet adoption processes manually (spreadsheets, paper forms, phone calls).  
 
 **Key requirements identified:**  
@@ -11,7 +11,7 @@ Animal shelters and NGOs face challenges in managing pet adoption processes manu
 
 ---
 
-## 📌 2. Stakeholder Analysis  
+## 2. Stakeholder Analysis  
 | Stakeholder        | Role/Interest | Needs |
 |--------------------|---------------|-------|
 | **Shelter Admin**  | Manages pets & adoption process | Simple system to register pets, assign status, generate reports |
@@ -21,7 +21,7 @@ Animal shelters and NGOs face challenges in managing pet adoption processes manu
 
 ---
 
-## 📌 3. Business Process Mapping  
+##  3. Business Process Mapping  
 
 **Current Process (Manual):**  
 1. Shelter registers pets in spreadsheets.  
@@ -38,7 +38,7 @@ Animal shelters and NGOs face challenges in managing pet adoption processes manu
 
 ---
 
-## 📌 4. Industry-specific Use Case Analysis  
+##  4. Industry-specific Use Case Analysis  
 - **Animal Welfare / NGOs:** Need centralized adoption management.  
 - **Pet Shelters:** Require streamlined processes to reduce waiting times for animals.  
 - **Nonprofit Sector:** Leverage Salesforce Nonprofit Cloud features to track donors, volunteers, and adopters.  
