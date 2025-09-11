@@ -46,7 +46,7 @@ Animal shelters and NGOs face challenges in managing pet adoption processes manu
 
 ---
 
-## 📌 5. AppExchange Exploration  
+##  5. AppExchange Exploration  
 Explored existing Salesforce AppExchange solutions such as **Nonprofit Success Pack (NPSP)** and **Shelter Management apps**.  
 
 **Findings:**  
