@@ -1,6 +1,23 @@
 #  Phase 1: Problem Understanding & Industry Analysis  
 
-## 1. Requirement Gathering  
+
+## 1. Problem Statement
+
+Animal shelters and NGOs often rely on manual processes such as spreadsheets, paper forms, and phone calls to manage pet adoption. This leads to:
+
+Inefficient tracking of pets available for adoption.
+
+Difficulty in managing adopter information and adoption requests.
+
+Lack of timely communication between shelters and adopters.
+
+Manual and time-consuming report generation for management.
+
+These inefficiencies reduce adoption rates, increase shelter workload, and delay pets from finding permanent homes.
+
+---
+
+## 2. Requirement Gathering  
 Animal shelters and NGOs face challenges in managing pet adoption processes manually (spreadsheets, paper forms, phone calls).  
 
 **Key requirements identified:**  
@@ -11,7 +28,7 @@ Animal shelters and NGOs face challenges in managing pet adoption processes manu
 
 ---
 
-## 2. Stakeholder Analysis  
+## 3. Stakeholder Analysis  
 | Stakeholder        | Role/Interest | Needs |
 |--------------------|---------------|-------|
 | **Shelter Admin**  | Manages pets & adoption process | Simple system to register pets, assign status, generate reports |
@@ -21,7 +38,7 @@ Animal shelters and NGOs face challenges in managing pet adoption processes manu
 
 ---
 
-##  3. Business Process Mapping  
+## 4. Business Process Mapping  
 
 **Current Process (Manual):**  
 1. Shelter registers pets in spreadsheets.  
@@ -38,7 +55,7 @@ Animal shelters and NGOs face challenges in managing pet adoption processes manu
 
 ---
 
-##  4. Industry-specific Use Case Analysis  
+##  5. Industry-specific Use Case Analysis  
 - **Animal Welfare / NGOs:** Need centralized adoption management.  
 - **Pet Shelters:** Require streamlined processes to reduce waiting times for animals.  
 - **Nonprofit Sector:** Leverage Salesforce Nonprofit Cloud features to track donors, volunteers, and adopters.  
@@ -46,12 +63,10 @@ Animal shelters and NGOs face challenges in managing pet adoption processes manu
 
 ---
 
-##  5. AppExchange Exploration  
+##  6. AppExchange Exploration  
 Explored existing Salesforce AppExchange solutions such as **Nonprofit Success Pack (NPSP)** and **Shelter Management apps**.  
 
 **Findings:**  
 - Many are **complex and enterprise-level**, not suitable for small shelters.  
 - Most focus on **donor management**, not the adoption process.  
 
-**Conclusion:**  
-A lightweight, custom **Pet Adoption Tracker** built on Salesforce is more suitable for small-to-medium shelters or as a capstone project.  
