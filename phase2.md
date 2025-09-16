@@ -72,10 +72,21 @@ The role hierarchy mirrors the NGO’s structure.
 - **Pet Adoption Tracker Foundation**  
   - Director  
     - Adoption Manager  
-      - Shelter Staff  
+      - Shelter Staff
+      - Foster Coordinator  
     - Volunteer Manager  
       - Support Volunteer  
-  - System Admin  
+  - System Admin
+  -  Veterinary Manager
+     -  Veterinary Staff  
+  - Fundraising Manager
+     -  Fundraising Coordinator  
+
+- The Adoption Manager can see all records owned by the Foster Coordinator and Shelter Staff.
+
+- The Fundraising Manager can see the records of the Fundraising Coordinator.
+
+- All managers and administrators report to the Pet Adoption Director, giving the director a comprehensive view of the entire organization's data.
 
 ---
 
