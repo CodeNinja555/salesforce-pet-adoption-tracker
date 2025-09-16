@@ -106,7 +106,7 @@ Baseline record visibility settings ensure collaboration while protecting sensit
 
 Additional sharing rules provide necessary collaboration across roles.  
 
-![Sharing Rules](images/sharing-settings.png)  
+![Sharing Rules](images/sharing.png)  
 
 - **Adoption Requests Sharing Rule:** Managers and Admins can access requests owned by Shelter Staff.  
 - **Adopter Sharing Rule:** Support Volunteers get read-only access to Adopter records for assistance.  
@@ -130,4 +130,3 @@ This app ensures that staff and managers can quickly navigate to all adoption-re
 
 ---
 
-✅ **Next Phase (Phase 3)** will focus on **custom objects, automation (flows), and reports/dashboards** for adoption analytics.  
