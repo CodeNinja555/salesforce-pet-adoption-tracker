@@ -118,7 +118,7 @@ Additional sharing rules provide necessary collaboration across roles.
 ## 9. Deployment Basics  
 
 A custom Lightning App named **Pet Adoption Tracker** has been created. This app centralizes access to the main custom objects:  
-
+![Deployment Basics](images/app.png)  
 - Pets  
 - Adopters  
 - Adoption Requests  
