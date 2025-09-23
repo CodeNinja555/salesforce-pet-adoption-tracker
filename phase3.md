@@ -86,8 +86,23 @@ Key fields were added to each custom object to capture essential data. Below are
 **Schema Builder** was used to visually plan and build the data model. It provides a clear map of how all the objects are interconnected.
 
 ### Relationship Types
-* **Lookup vs. Master-Detail vs. Hierarchical**: We used **lookup relationships** for connections where the child record can exist independently of the parent. For example, a lookup field on **`Adoption_Request__c`** to **`Adopter__c`** links a request to the person who made it. We did not use a **Master-Detail** relationship as the child records in this model are not fully dependent on a single parent. We also did not use a **Hierarchical** relationship.
+#### **Lookup Relationships**
 
+* **Adopter is connected to Adoption Request:** The Adoption Request record has a lookup field to Adopter. This means a person can exist in your system without having submitted an adoption request.
+
+* **Pet is connected to Adoption Request:** The Adoption Request record has a lookup field to Pet. An adoption request is linked to a pet, but the pet can exist on its own even if it's never requested.
+
+*  Volunteer Shift is connected to Contact: The Volunteer Shift record has a lookup to the standard Contact object. This is a  design as a volunteer shift can be scheduled even if no one is assigned to it yet.
+
+#### **Master-Detail Relationships**
+* **Medical Record is connected to Pet:** The Medical Record is the child (detail) object, and Pet is the parent (master). This is a perfect use case because a medical record cannot exist without a specific pet. Deleting a pet would automatically delete all of its related medical records.
+
+* **Foster Histories is a junction object that uses two master-detail relationships:**
+
+- It's a detail of Pet.
+
+- It's a detail of Contact (likely your volunteers).
+  This creates a many-to-many relationship, allowing one pet to have many foster parents, and one volunteer to foster many pets. This is an advanced and well-implemented design.
 * **Junction Objects**: To model a many-to-many relationship between **`Volunteer_Shift__c`** and **`Contact`**, a junction object could be used to track specific tasks or roles within a shift.
 
 * **External Objects**: This project does not currently use any external objects. These would be used if we needed to access data stored outside of Salesforce, such as a third-party veterinary clinic's database, without migrating the data into our CRM.
