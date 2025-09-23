@@ -24,7 +24,7 @@ These objects are the primary data containers for all adoption-related informati
 ## 2. Fields
 Key fields were added to each custom object to capture essential data. Below are examples of the fields created:
 
-### `Pet__c` Fields
+### Pet__c Fields
 | Field Label | API Name | Data Type | Description |
 |---|---|---|---|
 | Pet Name | `Pet_Name__c` | Text | The name of the pet. |
@@ -33,7 +33,9 @@ Key fields were added to each custom object to capture essential data. Below are
 | Date of Birth | `Date_of_Birth__c` | Date | Pet's birthdate. |
 | Adoption Fee | `Adoption_Fee__c` | Currency | The cost to adopt the pet. |
 
-### `Adopter__c` Fields
+![Pet__C Fields](images/Pet.png) 
+
+### Adopter__c Fields
 | Field Label | API Name | Data Type | Description |
 |---|---|---|---|
 | First Name | `First_Name__c` | Text | Adopter's first name. |
@@ -41,25 +43,32 @@ Key fields were added to each custom object to capture essential data. Below are
 | Home Type | `Home_Type__c` | Picklist | Apartment, House, Condo. |
 | Existing Pets | `Existing_Pets__c` | Number | The number of other pets in the household. |
 
-### `Adoption_Request__c` Fields
+![Adopter__c Fields](images/Adopt.png) 
+
+### Adoption_Request__c Fields
 | Field Label | API Name | Data Type | Description |
 |---|---|---|---|
 | Request Number | `Request_Number__c` | Auto Number | A unique identifier for each request. |
 | Status | `Status__c` | Picklist | Submitted, Under Review, Approved, Denied. |
 | Request Date | `Request_Date__c` | Date | The date the request was submitted. |
 
-### `Donation__c` Fields
+![Adoption_Request__c Fields](images/Request.png) 
+
+### Donation__c Fields
 | Field Label | API Name | Data Type | Description |
 |---|---|---|---|
 | Donation Amount | `Donation_Amount__c` | Currency | The amount of the donation. |
 | Donation Date | `Donation_Date__c` | Date | The date the donation was made. |
 
-### `Volunteer_Shift__c` Fields
+![Donation__c Fields](images/Donation.png)
+
+###  Volunteer_Shift__c Fields
 | Field Label | API Name | Data Type | Description |
 |---|---|---|---|
 | Shift Date | `Shift_Date__c` | Date | The date of the volunteer shift. |
 | Hours Logged | `Hours_Logged__c` | Number | The number of hours worked during the shift. |
 
+![Volunteer_Shift__c Fields](images/Volunteer.png)
 ---
 
 ## 3. Page Layouts & Compact Layouts
@@ -82,6 +91,8 @@ Key fields were added to each custom object to capture essential data. Below are
 * **Junction Objects**: To model a many-to-many relationship between **`Volunteer_Shift__c`** and **`Contact`**, a junction object could be used to track specific tasks or roles within a shift.
 
 * **External Objects**: This project does not currently use any external objects. These would be used if we needed to access data stored outside of Salesforce, such as a third-party veterinary clinic's database, without migrating the data into our CRM.
+
+![Schema Builder & Relationships](images/Schema.png) 
 
 ---
 
