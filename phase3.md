@@ -30,7 +30,7 @@ Key fields were added to each custom object to capture essential data. Below are
 | Pet Name | `Pet_Name__c` | Text | The name of the pet. |
 | Species | `Species__c` | Picklist | Dog, Cat, etc. |
 | Status | `Status__c` | Picklist | Available, Adopted, Fostered. |
-| Date of Birth | `Date_of_Birth__c` | Date | Pet's birthdate. |
+| Age | `Age__c` | Age | Pet's Age. |
 | Adoption Fee | `Adoption_Fee__c` | Currency | The cost to adopt the pet. |
 
 ![Pet__C Fields](images/Pet.png) 
